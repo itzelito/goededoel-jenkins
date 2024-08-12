@@ -29,6 +29,6 @@ class GoedeDoelTest {
 	}
 	@Test
 	void doelMetVerschillendeNaamZijnVerschillend(){
-		assertThat(doel).isNotEqualTo(new GoedeDoel("wwf")),
+		assertThat(doel).isNotEqualTo(new GoedeDoel("wwf"));
 	}
 }
